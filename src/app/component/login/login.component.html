@@ -1,0 +1,13 @@
+<form action="logform" class="form">
+  <span class="p-float-label">
+    <input pInputText id="username" [(ngModel)]="username" />
+    <label htmlFor="username">Username</label>
+  </span>
+
+  <span class="p-float-label">
+    <input pInputText type="password" id="password" [(ngModel)]="password" />
+    <label htmlFor="password">Password</label>
+  </span>
+
+  <button (click)="button()" label="submit" styleClass="p-button-link"></button>
+</form>
